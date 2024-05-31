@@ -21,6 +21,19 @@ echo 'Hello world. I love to eat ' . $food . '. Please buy me a ' . $food . '. Y
       <?php  
       Echo 'Hello world';
       ?> -->
+      <?php 
+      $age=10; //*valid
+      $_age=10; //*valid
+      // $7age=10; //*invalid
+      $age7=10; //*valid
+      //! N.B: Must not use specila characters while declaring a variable
+      ?>
+      <?php 
+      $age=25;
+      $gender="female";
+      $look="insane beauty";
+      echo 'I Love Setara. She is '. $age.' old. She is '.$look.'.';
+      ?>
 </body>
 </html>
 
