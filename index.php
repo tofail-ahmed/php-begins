@@ -8,7 +8,20 @@
 <body>
       <h1>php: Hypertext Preprocessor</h1>
       <?php  
-      echo 'Hello world';
-      ?>
+
+$food = "Pizza";
+echo 'Hello world. I love to eat ' . $food . '. Please buy me a ' . $food . '.';
+
+?>
+ <br> 
+      <!-- <?php  
+      ECHO 'Hello world';
+      ?> <br>
+      <?php  
+      Echo 'Hello world';
+      ?> -->
 </body>
 </html>
+
+
+
