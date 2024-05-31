@@ -10,7 +10,8 @@
       <?php  
 
 $food = "Pizza";
-echo 'Hello world. I love to eat ' . $food . '. Please buy me a ' . $food . '.';
+$Food="Burger";
+echo 'Hello world. I love to eat ' . $food . '. Please buy me a ' . $food . '. You can buy me a ' . $Food . ' also.';
 
 ?>
  <br> 
