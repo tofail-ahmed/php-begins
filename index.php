@@ -34,6 +34,13 @@ echo 'Hello world. I love to eat ' . $food . '. Please buy me a ' . $food . '. Y
       $look="insane beauty";
       echo 'I Love Setara. She is '. $age.' old. She is '.$look.'.';
       ?>
+      <br>
+
+      <?php 
+      $x=13;
+      $y=12;
+      echo 'If x='.$x.' and y='.$y.' then summassion of x and y is x+y='.$x+$y;
+      ?>
 </body>
 </html>
 
