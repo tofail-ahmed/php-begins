@@ -6,6 +6,9 @@
       <title>PHP PHP PHP</title>
 </head>
 <body>
-      <h1>hello php: Hypertext Preprocessor</h1>
+      <h1>php: Hypertext Preprocessor</h1>
+      <?php  
+      echo 'Hello world';
+      ?>
 </body>
 </html>
