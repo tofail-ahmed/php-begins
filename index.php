@@ -37,10 +37,30 @@ echo 'Hello world. I love to eat ' . $food . '. Please buy me a ' . $food . '. Y
       <br>
 
       <?php 
-      $x=13;
-      $y=12;
-      echo 'If x='.$x.' and y='.$y.' then summassion of x and y is x+y='.$x+$y;
-      ?>
+$x = 13;
+$y = 12;
+$sum = $x + $y;
+echo 'If x=' . $x . ' and y=' . $y . ' then summation of x and y is x+y=' . $sum . '<br>';
+print 'If x=' . $x . ' and y=' . $y . ' then summation of x and y is x+y=' . $sum;
+?>
+<br>
+<?php 
+$food='Biriyani';
+$drink='Borhani';
+$snack='Burger';
+ $food1=print $food;
+ $drink1=print $drink;
+ $snack1=print $snack;
+ $snack2=print $snack;
+ echo $food1;
+ echo $drink1;
+ echo $snack1;
+ echo $snack2;
+
+
+
+ //! diff between print vs echo...
+?>
 </body>
 </html>
 
