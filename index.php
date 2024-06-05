@@ -84,6 +84,36 @@ var_dump($honesty);
 
 
 ?>
+
+<hr>
+<?php
+class machine {
+      var $make;
+      var $model;
+      var $year;
+function machineDetails($prop1,$prop2,$prop3){
+     
+      global  $make;
+      global  $model;
+      global  $year;
+        $make =$prop1;
+        $model= $prop2;
+        $year= $prop3;
+      echo "This is $make $model $year <br/>";
+}
+}
+
+$myCar = new machine;
+$myCar->machineDetails("Toyota", "Corolla", 2021);
+$myPhone = new machine;
+$myPhone->machineDetails("Honor", "C21", 2019);
+$myPc = new machine;
+$myPc->machineDetails("Walton ", "Prelude R9", 2020);
+
+
+
+
+?>
 </body>
 </html>
 
