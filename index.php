@@ -114,6 +114,28 @@ $myPc->machineDetails("Walton ", "Prelude R9", 2020);
 
 
 ?>
+
+<hr>
+<?php 
+// echo strlen( "I love to eat Pizza"); //19
+// echo str_word_count( "I love to eat Pizza");  //5
+
+// echo strrev( "I love to eat Pizza"); //azziP tae ot evol I
+// echo strpos("I love to eat Pizza","eat");  //10
+// $test= strpos("I love to eat Pizza","drink");  
+// var_dump($test) //boolean false
+
+// $test= strpos("I love to eat Pizza","eat");  
+// var_dump($test) //10
+
+
+// $test=str_replace("Burger","Pizza","I love to eat Pizza");  
+// var_dump($test) //string 'I love to eat Pizza' (length=19)
+
+
+// echo str_replace("Pizza","Burger","I love to eat Pizza");  //I love to eat Burger
+
+?>
 </body>
 </html>
 
