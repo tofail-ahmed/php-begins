@@ -26,13 +26,13 @@ echo 'Hello world. I love to eat ' . $food . '. Please buy me a ' . $food . '. Y
       $_age=10; //*valid
       // $7age=10; //*invalid
       $age7=10; //*valid
-      //! N.B: Must not use specila characters while declaring a variable
+      //! N.B: Must not use special characters while declaring a variable
       ?>
       <?php 
       $age=25;
       $gender="female";
       $look="insane beauty";
-      echo 'I Love Setara. She is '. $age.' old. She is '.$look.'.';
+      echo 'I Love Setara. She is '. $age.' years old. She is '.$look.'.';
       ?>
       <br>
 
@@ -60,6 +60,29 @@ $snack='Burger';
 
 
  //! diff between print vs echo...
+
+
+?>
+<br>
+
+<hr>
+<?php 
+$name='Sayem';
+$name1="It's me Sayem";
+$age=27;
+$age1=27.5;
+$religious=true;
+$fruits=array("apple", "banana", "mango", "orange");
+$honesty=null;
+var_dump($name);
+var_dump($name1);
+var_dump($age);
+var_dump($age1);
+var_dump($religious);
+var_dump($fruits);
+var_dump($honesty);
+
+
 ?>
 </body>
 </html>
