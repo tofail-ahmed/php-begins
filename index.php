@@ -136,6 +136,18 @@ $myPc->machineDetails("Walton ", "Prelude R9", 2020);
 // echo str_replace("Pizza","Burger","I love to eat Pizza");  //I love to eat Burger
 
 ?>
+<hr>
+<?php 
+// echo (PI());
+// echo (max(1,123,34,56,76,87,5634,67,897,98,2));
+// echo (min(1,123,34,56,76,87,5634,67,897,98,2));
+// echo (abs(-29))
+// echo (sqrt(16))
+// echo (round(PI()))
+// echo (rand(2,6))
+// echo (ceil(2.4))
+// echo (floor(1.9))
+?>
 </body>
 </html>
 

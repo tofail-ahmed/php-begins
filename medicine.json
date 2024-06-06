@@ -1,13 +1,13 @@
 [
   {
     "id": 1,
-    "medicine_name": "Paracetamol 500mg",
-    "generic_name": "Paracetamol",
-    "company_name": "Albion Laboratories Ltd.",
-    "alt_medicines": ["Panadol", "Crocin"],
-    "description": "A common pain reliever and fever reducer.",
-    "doses": "500 mg every 4-6 hours as needed.",
-    "side_effects": ["Nausea", "Rash", "Liver damage in high doses"],
+    "medicine_name": "Xeldrin 20",
+    "generic_name": "Omeprazole",
+    "company_name": "ACI Limited",
+    "alt_medicines": ["Losectil 20", "Omep 20","PPI 20","Seclo 20"],
+    "description": "Omeprazole, a substituted benzimidazole, is an inhibitor of gastric acid secretion. It inhibits gastric acid secretion by blocking hydrogen-potassium-adenosine triphosphatase (H+/K+ ATPase) enzyme system in the gastric parietal cell. After oral administration, the onset of the antisecretory effect occurs within one hour, with the maximum effect occurring within two hours and inhibition of secretion lasts up to 72 hours. When the drug is discontinued, secretory activity returns gradually, over 3 to 5 days.",
+    "doses": "20 mg once daily for 4 weeks in duodenal ulceration, 8 weeks in gastric ulceration; in severe or recurrent cases, dose to be increased to 40 mg daily; maintenance dose for recurrent duodenal ulcer, 20 mg once daily; in prevention of relapse in duodenal ulcer, 10-20 mg daily.",
+    "side_effects": ["Headache", "Nausea", "Diarrhea", "Abdominal pain"],
     "actions": "Inhibits the synthesis of prostaglandins in the brain.",
     "interactions": ["Alcohol", "Warfarin"],
     "uses": ["Pain relief", "Fever reduction"],
@@ -869,5 +869,157 @@
       "May cause tendinitis and tendon rupture",
       "Avoid in children and adolescents"
     ]
-  }
+  },
+  {
+    "id": 52,
+    "medicine_name": "Monas 10mg",
+    "generic_name": "Montelukast",
+    "brand_name": "Monas",
+    "alt_medicines": ["Singulair", "Monteflo"],
+    "description": "A leukotriene receptor antagonist used to prevent and treat asthma and allergies.",
+    "doses": "10 mg once daily in the evening.",
+    "side_effects": ["Headache", "Dizziness", "Abdominal pain"],
+    "actions": "Blocks leukotriene receptors, reducing inflammation and bronchoconstriction.",
+    "interactions": ["Phenobarbital", "Rifampin"],
+    "uses": ["Asthma prevention", "Allergic rhinitis"],
+    "warnings": [
+      "Not for acute asthma attacks",
+      "Monitor for changes in mood or behavior"
+    ]
+  },
+  {
+      "id": 52,
+      "medicine_name": "Napa Extra",
+      "generic_name": "Paracetamol and Caffeine",
+      "brand_name": "Napa Extra",
+      "alt_medicines": ["Panadol Extra", "Tylenol Extra Strength"],
+      "description": "A combination medication used to treat mild to moderate pain and reduce fever. The caffeine component enhances the pain-relieving effects of paracetamol.",
+      "doses": "1-2 tablets every 4-6 hours as needed, not to exceed 8 tablets in 24 hours.",
+      "side_effects": ["Liver damage", "Nausea", "Insomnia"],
+      "actions": "Paracetamol acts as an analgesic and antipyretic, while caffeine acts as a central nervous system stimulant.",
+      "interactions": ["Alcohol", "Warfarin"],
+      "uses": ["Pain relief", "Fever reduction"],
+      "warnings": ["Avoid excessive alcohol consumption", "May cause severe liver damage if taken in high doses"]
+    },
+    {
+      "id": 53,
+      "medicine_name": "Gilipitam 50/500",
+      "generic_name": "Sitagliptin and Metformin",
+      "brand_name": "Gilipitam",
+      "alt_medicines": ["Janumet", "Istamet"],
+      "description": "A combination medication used to improve blood sugar control in adults with type 2 diabetes. Sitagliptin is a DPP-4 inhibitor and metformin is a biguanide.",
+      "doses": "50 mg sitagliptin / 500 mg metformin twice daily with meals.",
+      "side_effects": ["Nausea", "Diarrhea", "Hypoglycemia"],
+      "actions": "Sitagliptin increases insulin release and decreases glucagon levels, while metformin decreases hepatic glucose production and increases insulin sensitivity.",
+      "interactions": ["Alcohol", "Cimetidine"],
+      "uses": ["Type 2 diabetes mellitus"],
+      "warnings": ["Monitor renal function", "Avoid excessive alcohol consumption"]
+    },
+    {
+      "id": 54,
+      "medicine_name": "Dimerol MR 30",
+      "generic_name": "Trimebutine Maleate",
+      "brand_name": "Dimerol MR",
+      "alt_medicines": ["Debridat", "Mebutin"],
+      "description": "An antispasmodic agent used to treat irritable bowel syndrome and other gastrointestinal disorders.",
+      "doses": "30 mg three times daily before meals.",
+      "side_effects": ["Drowsiness", "Dry mouth", "Dizziness"],
+      "actions": "Regulates bowel motility by modulating the activity of gastrointestinal smooth muscles.",
+      "interactions": ["CNS depressants", "Alcohol"],
+      "uses": ["Irritable bowel syndrome", "Gastrointestinal disorders"],
+      "warnings": ["May cause drowsiness", "Avoid driving or operating machinery if affected"]
+    },
+    {
+      "id": 55,
+      "medicine_name": "D-Cap 2000",
+      "generic_name": "Cholecalciferol",
+      "brand_name": "D-Cap",
+      "alt_medicines": ["D3-2000 IU", "Bio-D-Mulsion Forte"],
+      "description": "A vitamin D supplement used to treat or prevent vitamin D deficiency.",
+      "doses": "2000 IU (50 mcg) once daily.",
+      "side_effects": ["Hypercalcemia", "Nausea", "Weakness"],
+      "actions": "Increases intestinal absorption of calcium and phosphate, promoting bone mineralization.",
+      "interactions": ["Calcium supplements", "Thiazide diuretics"],
+      "uses": ["Vitamin D deficiency", "Osteoporosis prevention"],
+      "warnings": ["Monitor blood calcium levels", "Avoid excessive intake to prevent toxicity"]
+    },
+    {
+      "id": 56,
+      "medicine_name": "Exium 20",
+      "generic_name": "Esomeprazole",
+      "brand_name": "Exium",
+      "alt_medicines": ["Nexium", "Esotrex"],
+      "description": "A proton pump inhibitor (PPI) used to treat gastroesophageal reflux disease (GERD) and peptic ulcers.",
+      "doses": "20 mg once daily, at least one hour before a meal.",
+      "side_effects": ["Headache", "Nausea", "Diarrhea"],
+      "actions": "Suppresses gastric acid secretion by inhibiting the H+/K+ ATPase pump in the gastric parietal cells.",
+      "interactions": ["Clopidogrel", "Warfarin"],
+      "uses": ["GERD", "Peptic ulcers"],
+      "warnings": ["May increase risk of Clostridium difficile-associated diarrhea", "Long-term use may increase risk of bone fractures"]
+    },
+    {
+      "id": 57,
+      "medicine_name": "Omidon",
+      "generic_name": "Domperidone",
+      "brand_name": "Omidon",
+      "alt_medicines": ["Motilium", "Domstal"],
+      "description": "A dopamine receptor antagonist used to treat nausea and vomiting.",
+      "doses": "10-20 mg 3-4 times daily before meals and at bedtime.",
+      "side_effects": ["Dry mouth", "Headache", "Abdominal cramps"],
+      "actions": "Blocks dopamine receptors in the chemoreceptor trigger zone, reducing nausea and vomiting.",
+      "interactions": ["Ketoconazole", "Erythromycin"],
+      "uses": ["Nausea", "Vomiting", "Delayed gastric emptying"],
+      "warnings": ["May cause QT prolongation", "Use with caution in patients with heart conditions"]
+    },
+    {
+      "id": 58,
+      "medicine_name": "Tufnil",
+      "generic_name": "Tolfenamic Acid",
+      "brand_name": "Tufnil",
+      "alt_medicines": ["Clotan", "Tufcyn"],
+      "description": "A nonsteroidal anti-inflammatory drug (NSAID) used to relieve pain and inflammation in conditions such as arthritis and menstrual pain.",
+      "doses": "200-400 mg twice daily.",
+      "side_effects": ["Nausea", "Headache", "Gastric irritation"],
+      "actions": "Inhibits cyclooxygenase enzyme, thereby reducing prostaglandin synthesis.",
+      "interactions": ["Aspirin", "Warfarin"],
+      "uses": ["Pain relief", "Inflammatory conditions"],
+      "warnings": ["May increase risk of heart attack or stroke", "Avoid in late pregnancy"]
+    },
+    {
+      "id": 59,
+      "medicine_name": "CoralcalDX",
+      "generic_name": "Calcium Carbonate",
+      "brand_name": "CoralcalDX",
+      "alt_medicines": ["Tums", "Caltrate"],
+      "description": "A calcium supplement used to prevent or treat calcium deficiencies and to support bone health.",
+      "doses": "500-1500 mg once or twice daily, preferably with meals.",
+      "side_effects": ["Constipation", "Gas", "Stomach upset"],
+      "actions": "Supplements dietary calcium intake to maintain bone strength and prevent osteoporosis.",
+      "interactions": ["Levothyroxine", "Iron supplements"],
+      "uses": ["Calcium deficiency", "Osteoporosis prevention"],
+      "warnings": ["Avoid in patients with hypercalcemia", "Take with plenty of water to prevent constipation"]
+    },
+    {
+      "id": 60,
+      "medicine_name": "Marincle DX",
+      "generic_name": "Calcium Citrate",
+      "brand_name": "Marincle DX",
+      "alt_medicines": ["Citracal", "Cal-Citrate"],
+      "description": "A calcium supplement used to prevent or treat calcium deficiencies and to support bone health.",
+      "doses": "500-1200 mg once or twice daily, preferably with meals.",
+      "side_effects": ["Nausea", "Constipation", "Stomach upset"],
+      "actions": "Supplements dietary calcium intake to maintain bone strength and prevent osteoporosis.",
+      "interactions": ["Levothyroxine", "Iron supplements"],
+      "uses": ["Calcium deficiency", "Osteoporosis prevention"],
+      "warnings": ["Take with plenty of water to prevent constipation", "Avoid in patients with hypercalcemia"]
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
 ]
