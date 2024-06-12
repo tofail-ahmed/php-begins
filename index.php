@@ -148,6 +148,24 @@ $myPc->machineDetails("Walton ", "Prelude R9", 2020);
 // echo (ceil(2.4))
 // echo (floor(1.9))
 ?>
+
+
+<?php 
+$x=5;
+define('Name','Sayem');
+define("age",'27');
+define("foods",["Biriyani","Burger","Cold Coffee"]);
+var_dump(age);
+var_dump(foods);
+echo(age);
+echo($x);
+
+function example(){
+      // echo($x);  //!  Warning: Undefined variable $x in C:\wamp64\www\php\index.php on line 164
+      echo(foods[2]);  //* Cold Coffee
+};
+example();
+?>
 </body>
 </html>
 
